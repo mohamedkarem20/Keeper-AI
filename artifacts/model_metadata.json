@@ -1,0 +1,143 @@
+{
+  "model_name": "XGBoost",
+  "model_source": "Untuned (tuning did not improve on validation)",
+  "final_features": [
+    "Age",
+    "Contacts_x_ResolutionTime",
+    "Country",
+    "Customer_Support_Contacts",
+    "Days_Since_Last_Purchase",
+    "Gender",
+    "Purchase_Count",
+    "Resolution_Delay_Ratio",
+    "Resolution_Time_Hours",
+    "Support_Efficiency_Score",
+    "Total_Spent",
+    "tfidf_and",
+    "tfidf_expected",
+    "tfidf_great",
+    "tfidf_is",
+    "tfidf_its",
+    "tfidf_no",
+    "tfidf_not",
+    "tfidf_of",
+    "tfidf_on",
+    "tfidf_than",
+    "tfidf_to"
+  ],
+  "nominal_features": [
+    "Country",
+    "Gender"
+  ],
+  "ordinal_features": [],
+  "numeric_features": [
+    "Age",
+    "Contacts_x_ResolutionTime",
+    "Customer_Support_Contacts",
+    "Days_Since_Last_Purchase",
+    "Purchase_Count",
+    "Resolution_Delay_Ratio",
+    "Resolution_Time_Hours",
+    "Support_Efficiency_Score",
+    "Total_Spent",
+    "tfidf_and",
+    "tfidf_expected",
+    "tfidf_great",
+    "tfidf_is",
+    "tfidf_its",
+    "tfidf_no",
+    "tfidf_not",
+    "tfidf_of",
+    "tfidf_on",
+    "tfidf_than",
+    "tfidf_to"
+  ],
+  "processed_feature_names": [
+    "Age",
+    "Contacts_x_ResolutionTime",
+    "Customer_Support_Contacts",
+    "Days_Since_Last_Purchase",
+    "Purchase_Count",
+    "Resolution_Delay_Ratio",
+    "Resolution_Time_Hours",
+    "Support_Efficiency_Score",
+    "Total_Spent",
+    "tfidf_and",
+    "tfidf_expected",
+    "tfidf_great",
+    "tfidf_is",
+    "tfidf_its",
+    "tfidf_no",
+    "tfidf_not",
+    "tfidf_of",
+    "tfidf_on",
+    "tfidf_than",
+    "tfidf_to",
+    "Country_Australia",
+    "Country_Canada",
+    "Country_Ireland",
+    "Country_USA",
+    "Country_United Kingdom",
+    "Country_Unknown",
+    "Gender_Female",
+    "Gender_Male",
+    "Gender_Unknown"
+  ],
+  "test_metrics": {
+    "Accuracy": 0.8573333333333333,
+    "Balanced_Accuracy": 0.8510674710135626,
+    "Precision": 0.6901554404145078,
+    "Recall": 0.8377358490566038,
+    "F1": 0.7568181818181818,
+    "ROC_AUC": 0.9310845847773072,
+    "Average_Precision": 0.8383987051457079,
+    "MCC": 0.6633803210679987,
+    "Log_Loss": 0.32275745272636414
+  },
+  "best_hyperparameters": {
+    "subsample": 0.9,
+    "n_estimators": 200,
+    "min_child_weight": 5,
+    "max_depth": 8,
+    "learning_rate": 0.03,
+    "colsample_bytree": 0.6
+  },
+  "default_threshold": 0.5,
+  "threshold_report": [
+    {
+      "Threshold": 0.3,
+      "Precision": 0.581,
+      "Recall": 0.9157,
+      "F1": 0.7109,
+      "Flagged_as_Risk_%": 41.77
+    },
+    {
+      "Threshold": 0.4,
+      "Precision": 0.6362,
+      "Recall": 0.8755,
+      "F1": 0.7369,
+      "Flagged_as_Risk_%": 36.47
+    },
+    {
+      "Threshold": 0.5,
+      "Precision": 0.6902,
+      "Recall": 0.8377,
+      "F1": 0.7568,
+      "Flagged_as_Risk_%": 32.17
+    },
+    {
+      "Threshold": 0.6,
+      "Precision": 0.7362,
+      "Recall": 0.7862,
+      "F1": 0.7603,
+      "Flagged_as_Risk_%": 28.3
+    },
+    {
+      "Threshold": 0.7,
+      "Precision": 0.7765,
+      "Recall": 0.7384,
+      "F1": 0.7569,
+      "Flagged_as_Risk_%": 25.2
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+Feature,Decision,Reason
+Age,Selected,Business-judgment add: core RFM/demographic feature retained for interpretability and business reporting despite narrowly missing the statistical consensus threshold.
+Contacts_x_ResolutionTime,Selected,Consensus: selected by 3/5 techniques.
+Country,Selected,Business-judgment add: core RFM/demographic feature retained for interpretability and business reporting despite narrowly missing the statistical consensus threshold.
+Customer_Support_Contacts,Selected,Consensus: selected by 3/5 techniques.
+Days_Since_Last_Purchase,Selected,Consensus: selected by 4/5 techniques.
+Gender,Selected,Business-judgment add: core RFM/demographic feature retained for interpretability and business reporting despite narrowly missing the statistical consensus threshold.
+Purchase_Count,Selected,Business-judgment add: core RFM/demographic feature retained for interpretability and business reporting despite narrowly missing the statistical consensus threshold.
+Resolution_Delay_Ratio,Selected,Consensus: selected by 4/5 techniques.
+Resolution_Time_Hours,Selected,Consensus: selected by 3/5 techniques.
+Support_Efficiency_Score,Selected,Consensus: selected by 3/5 techniques.
+Total_Spent,Selected,Business-judgment add: core RFM/demographic feature retained for interpretability and business reporting despite narrowly missing the statistical consensus threshold.
+tfidf_and,Selected,Consensus: selected by 4/5 techniques.
+tfidf_expected,Selected,Consensus: selected by 4/5 techniques.
+tfidf_great,Selected,Consensus: selected by 3/5 techniques.
+tfidf_is,Selected,Consensus: selected by 3/5 techniques.
+tfidf_its,Selected,Consensus: selected by 4/5 techniques.
+tfidf_no,Selected,Consensus: selected by 4/5 techniques.
+tfidf_not,Selected,Consensus: selected by 4/5 techniques.
+tfidf_of,Selected,Consensus: selected by 3/5 techniques.
+tfidf_on,Selected,Consensus: selected by 3/5 techniques.
+tfidf_than,Selected,Consensus: selected by 4/5 techniques.
+tfidf_to,Selected,Consensus: selected by 3/5 techniques.
+Age_Group,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+Average_Word_Length,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+Complaint_Density,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+Complaint_Severity,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+Digit_Count,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+Is_Weekend,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+Product_Category,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+Product_Name,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+Punctuation_Count,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+Rating_Imputed_Flag,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+Resolution_Category,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+Response_Time_Hours,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+Review_Length_Category,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+Review_Readability,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+Spending_Per_Complaint,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+Stopword_Ratio,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+Ticket_Day,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+Ticket_Month,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+Ticket_Weekday,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+Ticket_Year,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_all,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_arrived,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_didnt,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_discount,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_for,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_had,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+tfidf_how,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_im,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_in,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_issues,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_it,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_my,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_or,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+tfidf_others,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_out,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_performance,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_purchase,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_recommend,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_replacement,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_shipping,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_the,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+tfidf_this,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_this_purchase,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_time,Removed,Low relevance across ranking techniques (2/5 methods selected it) and no independent business justification for retention.
+tfidf_update,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_was,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_were,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_what,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.
+tfidf_will,Removed,Low relevance across ranking techniques (0/5 methods selected it) and no independent business justification for retention.
+tfidf_with,Removed,Low relevance across ranking techniques (1/5 methods selected it) and no independent business justification for retention.

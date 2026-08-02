@@ -1,0 +1,14 @@
+Column,Type,Method,Reason
+Gender,Nominal,One-Hot Encoding,No inherent order between categories.
+Country,Nominal,One-Hot Encoding,No inherent order between categories.
+Product_Category,Nominal,One-Hot Encoding,No inherent order between categories.
+Ticket_Weekday,Nominal,One-Hot Encoding,No inherent order between categories.
+Age_Group,Ordinal,Ordinal Encoding,Explicit business order: Teen < Young Adult < Adult < Senior.
+Resolution_Category,Ordinal,Ordinal Encoding,Explicit business order: Fast < Normal < Slow < Long.
+Complaint_Severity,Ordinal,Ordinal Encoding,Explicit business order: Low < Medium < High < Critical.
+Review_Length_Category,Ordinal,Ordinal Encoding,Explicit business order: No Review < Short < Medium < Long.
+Customer_ID,Excluded,Not Encoded,"Identifier, target, raw text, or leaked feature (see Step 9)."
+Churn_Risk,Excluded,Not Encoded,"Identifier, target, raw text, or leaked feature (see Step 9)."
+Review_Text,Excluded,Not Encoded,"Identifier, target, raw text, or leaked feature (see Step 9)."
+Clean_Review_Text,Excluded,Not Encoded,"Identifier, target, raw text, or leaked feature (see Step 9)."
+Sentiment_Label,Excluded,Not Encoded,"Identifier, target, raw text, or leaked feature (see Step 9)."

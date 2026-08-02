@@ -1,0 +1,4 @@
+Scaler,Sensitive_to_Outliers,Centers_On,Scales_By,Selected_for_this_project,Reason
+StandardScaler,High,Mean,Std Dev,False,"Mean/std are both pulled by the right-skewed, outlier-containing features identified in prior EDA."
+MinMaxScaler,Very High,Min,Range (Max-Min),False,Min/max are exactly the values most distorted by outliers — a single extreme value rescales everything else.
+RobustScaler,Low,Median,IQR,True,"SELECTED: median/IQR are robust to the outliers already documented in Total_Spent, Purchase_Count, and Days_Since_Last_Purchase, giving a more representative scale for the bulk of customers."

@@ -1,0 +1,11 @@
+,Value
+Original Feature Count,16
+Engineered Feature Count,120
+New Features Created,104
+Features Flagged for Removal (leakage),3
+Missing Values Before (df_original),15768
+"Missing Values After (df_working, all structural)",70836
+Duplicate Rows,50
+Encoding Strategy,One-Hot (nominal) + Ordinal (4 ordered groupings) — documented in Step 16
+Scaling Strategy,RobustScaler selected — documented in Step 17
+Data Quality Status,"PASS — zero duplicates, zero infinite values, zero invalid categories, zero impossible dates, zero negative durations (Step 18)"
